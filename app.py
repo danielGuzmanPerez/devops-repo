@@ -32,7 +32,7 @@ class ConvertTemp(Resource):
             if target_scale == 'fahrenheit':
                 return temp * 9/5 + 32
             elif target_scale == 'kelvin':
-                return temp + 273.15
+                return temp + 273
 
         elif scale == 'fahrenheit':
             if target_scale == 'celsius':
